@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
+    background-color: #f1f8f4;
+    color: #26332b;
 }
 
 .encabezado {
-    background-color: #1f4e79;
+    background-color: #176b4d;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -31,46 +31,58 @@ body {
     background-color: white;
     padding: 25px;
     margin-bottom: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(23, 107, 77, 0.15);
+    border-left: 5px solid #2e8b68;
 }
 
 .tarjeta h2 {
     margin-bottom: 20px;
+    color: #176b4d;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    color: #34483d;
 }
 
 input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #b8d5c7;
     border-radius: 6px;
     margin-bottom: 15px;
     font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2e8b68;
+    box-shadow: 0 0 4px rgba(46, 139, 104, 0.3);
 }
 
 button {
-    background-color: #1f4e79;
+    background-color: #176b4d;
     color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
     cursor: pointer;
     font-size: 15px;
+    transition: 0.2s;
 }
 
 button:hover {
-    opacity: 0.9;
+    background-color: #2e8b68;
+    transform: translateY(-1px);
 }
 
 #mensaje {
     margin-top: 15px;
     font-weight: bold;
+    color: #176b4d;
 }
 
 .vehiculo {
@@ -78,7 +90,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d8e8df;
 }
 
 .vehiculo:last-child {
